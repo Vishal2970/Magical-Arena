@@ -35,6 +35,6 @@ public class magicalArena {
             defender.reduceHealth(damage);
         }
 
-        System.out.println("Attacker: " + attacker + " Defender: " + defender);
+        System.out.println("Attacker: " + attacker.formatDetails() + " Defender: " + defender.formatDetails());
     }
 }

@@ -28,4 +28,7 @@ public class player {
     public boolean isAlive() {
         return this.health > 0;
     }
+    public String formatDetails(){
+        return "Player { health = "+health+" , attack = "+attack+" , strength = "+strength+" }";
+    }
 }
